@@ -1,0 +1,98 @@
+
+
+body {
+    background-color: 
+    #ADC8D9
+}
+
+
+/*h1 {
+    font-family: 'HezaedrusRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60px;
+ } */
+
+#textbox {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.alignleft {
+    margin-top: 40px;
+    margin-left: 70px;
+	float: left;
+    text-decoration: underline;
+}
+.alignright {
+    margin-right: 70px;
+    margin-top: 40px;
+	float: right;
+    
+}
+
+#textbox1 {
+    height: 400px;
+    float: right;
+    
+}
+
+/*#textbox1.alignright1 {
+    margin-right: 70px;
+    margin-top: 150p;
+}*/
+
+#textbox1 h1 {
+    font-size: 150px;
+    text-align: right;
+    margin-right: 70px;
+    
+}
+
+#textbox2 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 500px;
+    
+}
+
+.alignleft2 {
+    position: absolute;
+    font-size: 55px;
+    margin-left: 70px;
+    
+}
+
+.alignright2 {
+    position: absolute;
+    width: 100%;
+    margin-top: 55px;
+}
+
+.alignright2 .table {
+    float: right;
+    margin-right: 70px;
+    
+}
+.alignright2 .table td {
+    text-align: left;
+    padding: 10px;
+}  
+
+.image1 img {
+    float: right;
+    margin-right: 70px;
+    width: 800px;
+    object-fit: contain;
+}
+
+.image2 img {
+    width: 800px;
+    height: 650px;
+    object-fit: contain;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
