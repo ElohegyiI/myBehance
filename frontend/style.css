@@ -42,22 +42,22 @@ div {
 }
 
 
-#image1 {
-    width: 50%;
-    position: absolute;
+.container {
+    width: 100%;
+    position: relative;
     background-color: aliceblue;
 
 }
 
-#images {
+.container .content {
+    position: absolute;
     margin: 30px;
     width: 700px;
     height: 700px;
     border: 2px solid black;
-    position: absolute;
 }
 
-#image1 img {
+.container .content img {
     position: absolute;
     height: 100px;
     width: 150px;
@@ -69,31 +69,20 @@ div {
 
 
 
-#h1text h1 {
+.container .h1text h1 {
     position: absolute;
     width: 200px;
     height: 200px;
     border: 2px solid black;
     margin: 10px;
     right: 0;
+    
 }
 
-#ptext p {
+.container .ptext p {
     position: absolute;
     width: 100px;
     height: 100px;
     border: 2px solid black;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
+    margin: 10px;    
 }
-/*
-.image2 img {
-    position: absolute;
-    height: 100px;
-    width: 150px; 
-    top: 50%;
-    
-}
-*/
